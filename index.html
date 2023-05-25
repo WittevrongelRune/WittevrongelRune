@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Toss</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="header"></div>
+        <section>
+            <h2>Welkom bij Toss</h1>
+                <p>een studentenbedrijf dat een gametoernooi organiseert op het Vrij Handels- en Sportinstituut </p>
+
+            <h1>Bracket</h1>
+                <img src="img/brackett.png" id="bracket">
+                <img src="img/planning.png" id="planning">
+                <p>
+                    Hier ziet u op welke dag en hoe laat u moet deelnemen aan het toernooi.
+                </p>
+
+            <h1>Wie zijn wij?</h1>
+                <p>Wij zijn leerlingen van het 6de jaar Informaticabeheer. 
+                    <br>
+                    Wij zijn geïnteresseerd in het spelen van games. 
+                    <br>
+                    Het lijkt ons dan ook leuk om een gametoernooi te organiseren op school, 
+                    <br>
+                    en jullie zo een toffe middagpauze te bezorgen.
+                </p>
+        </section>
+        <Script type="text/javascript">
+            const bg = document.getElementById('header');
+            window.addEventListener('scroll', function(){
+                bg.style.backgroundSize = 220 - +window.pageYOffset/12+'%';
+            })
+
+        </Script>
+    
+
+    
+</body>
+</html>
